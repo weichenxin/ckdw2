@@ -1,0 +1,81 @@
+.header {
+    border: 1px solid black;
+    background-color:rgba(204, 4, 1, 1);
+    height: 80px;
+    width: auto;
+
+}
+
+.header h1{
+    color:rgba(254, 221, 0, 1);
+    /*border: 2px solid red;*/
+    margin-left: 65px;
+}
+
+.header-right {
+    width: 800px;
+    height: 50px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -45px;
+}
+
+.header-right ul{
+    display: flex;  /*横向列表*/
+    flex-flow: row nowrap;
+    justify-content: center;  /*居中*/
+}
+
+.header-right li{
+    list-style: none;
+    /*border: 1px solid blue;*/
+    text-align: center;
+    height: 50px;
+    width: 110px;
+    line-height: 50px;
+    margin: 0px 10px;
+}
+
+.header-right li a{
+    color: rgba(240, 240, 240, 1);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.dangzongzhi{
+    width: 60%;
+    border: 1px solid red;
+    height: 600px;
+    float: left;
+}
+
+#myCarousel{
+    background-color: yellow;
+}
+
+.carousel-inner{
+    width: 100%;
+}
+
+.dzzright{
+    width: 39%;
+    height: 600px;
+    border:2px solid blue;
+    float: left;
+}
+
+.chedui{
+    width: 100%;
+    height: 50%;
+    border: 2px solid yellow;
+}
+
+.banzu{
+    width: 100%;
+    height: 50%;
+    border: 2px solid black;
+}
+
+
+
+
