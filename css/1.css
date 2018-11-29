@@ -1,13 +1,13 @@
 .header {
     border: 1px solid black;
-    background-color:rgba(204, 4, 1, 1);
+    background-color: rgba(204, 4, 1, 1);
     height: 80px;
     width: auto;
 
 }
 
-.header h1{
-    color:rgba(254, 221, 0, 1);
+.header h1 {
+    color: rgba(254, 221, 0, 1);
     /*border: 2px solid red;*/
     margin-left: 65px;
 }
@@ -20,13 +20,15 @@
     margin-top: -45px;
 }
 
-.header-right ul{
-    display: flex;  /*ºáÏòÁÐ±í*/
+.header-right ul {
+    display: flex;
+    /*ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½*/
     flex-flow: row nowrap;
-    justify-content: center;  /*¾ÓÖÐ*/
+    justify-content: center;
+    /*ï¿½ï¿½ï¿½ï¿½*/
 }
 
-.header-right li{
+.header-right li {
     list-style: none;
     /*border: 1px solid blue;*/
     text-align: center;
@@ -36,46 +38,100 @@
     margin: 0px 10px;
 }
 
-.header-right li a{
+.header-right li a {
     color: rgba(240, 240, 240, 1);
     font-size: 18px;
     text-decoration: none;
 }
 
-.dangzongzhi{
+.dangzongzhi {
     width: 60%;
     border: 1px solid red;
     height: 600px;
     float: left;
 }
 
-#myCarousel{
+#myCarousel {
     background-color: yellow;
 }
 
-.carousel-inner{
+.carousel-inner {
     width: 100%;
 }
 
-.dzzright{
+.dzzright {
     width: 39%;
     height: 600px;
-    border:2px solid blue;
+    border: 2px solid blue;
     float: left;
 }
 
-.chedui{
+.chedui {
     width: 100%;
     height: 50%;
     border: 2px solid yellow;
 }
 
-.banzu{
+.banzu {
     width: 100%;
     height: 50%;
     border: 2px solid black;
 }
 
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #fff;
+}
 
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #0009;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
 
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
 
+.glyphicon-chevron-left:before {
+    content: "\e079";
+}
+
+.glyphicon-chevron-right:before {
+    content: "\e080";
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.page {
+    width: 100%;
+    height: 800px;
+    display: none;
+}
